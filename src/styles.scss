@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@use "./assets/SofiaPro/font-family-SofiaPro.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sofia-pro text-base;
+  }
+}
